@@ -1,4 +1,3 @@
-# Segfacemark
 # One-Identity-One-Key: Region-aware Watermark for Proactive Deepfake Detection and Robust Source Tracing
 
 ## 📢 Updates
