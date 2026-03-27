@@ -51,6 +51,14 @@ Since we don't own the source code, we recommend downloading and placing the mod
 * [StyleMask (FG 2023)](https://github.com/StelaBou/StyleMask)
 * [StarGAN (CVPR 2018)](https://github.com/yunjey/stargan)
 
+## 📦 Pre-trained Weights
+
+This project relies on several pre-trained models for face detection, recognition, and segmentation. Please refer to their official webpages to download the required weights:
+
+* **ArcFace**: [Pre-trained models (InsightFace)](https://github.com/deepinsight/insightface)
+* **dlib**: [Trained model files for dlib](https://github.com/davisking/dlib-models)
+* **SegFace**: [Segface: Face segmentation of long-tail classes (AAAI 2025)](https://ojs.aaai.org/index.php/AAAI/article/view/32661)
+  
 ## 📬 Contact
 
 If you have any questions, please contact:
