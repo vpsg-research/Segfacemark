@@ -247,13 +247,6 @@ class IWNet(nn.Module):
                 forward_cover_images = cover_images.clone().detach()
                 forward_mask = mask.clone().detach()
                 input = [forward_b_embedded, forward_watermarked_images, forward_cover_images, forward_mask]
-                # print(f"input[0]的值域是 {forward_b_embedded.min().item()} - {forward_b_embedded.max().item()}")
-                # print(f"input[1]的值域是 {forward_watermarked_images.min().item()} - {forward_watermarked_images.max().item()}")
-                # print(f"input[2]的值域是 {forward_cover_images.min().item()} - {forward_cover_images.max().item()}")
-                # print(f"input[3]的值域是 {forward_mask.min().item()} - {forward_mask.max().item()}")
-
-                # 修正 shape 打印：去掉 shape 后面的括号
-                # print(f"input[0]的shape是 {forward_b_embedded.shape}")
                 b_embedded_attack_type_all = add_noise(input, b_embedded, type="all")
 
                 # return message, regional_wms, region_masks_list
