@@ -1,0 +1,39 @@
+project_name: deepfake_watermark
+epochs: 20
+batch_size: 8
+lr: 5e-4
+message_range: 1
+device: "cuda:0"
+lpips_w: 1
+encoder_w: 16
+all_w: 1
+gnn: 0.01
+df_w: 0.1
+common_w: 3
+dataset_path: /root/autodl-tmp/CelebAMask-HQ/train
+saved_images_number: 4
+wm_channels: 4
+
+# train 0.04
+# val 0.012
+wm_factor: 0.04
+
+#128
+# image_size: 128
+# message_length: 30
+# train_img_dir: /root/autodl-tmp/CelebAMask-HQ/train/train_128
+# val_img_dir: /root/autodl-tmp/CelebAMask-HQ/train/val_128_small
+# train_wm_dir: /root/autodl-tmp/watermark/train_128_30
+# val_wm_dir: /root/autodl-tmp/watermark/val_128_30_small
+# TRAIN_PCA_PATH: /root/autodl-tmp/watermark/train_128_30/pca_bundle.pkl
+# EVAL_PCA_PATH: /root/autodl-tmp/watermark/val_128_30_small/pca_bundle.pkl
+
+# # 256
+image_size: 256
+message_length: 128
+train_img_dir: /root/CelebAMask-HQ/train/train_256
+val_img_dir: /root/CelebAMask-HQ/train/val_256_small
+train_wm_dir: /root/watermark/train_256_128
+val_wm_dir: /root/watermark/val_256_128_small
+TRAIN_PCA_PATH: /root/watermark/train_256_128/pca_bundle.pkl
+EVAL_PCA_PATH: /root/watermark/val_256_128_small/pca_bundle.pkl
