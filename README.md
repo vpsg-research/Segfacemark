@@ -95,7 +95,7 @@ This project relies on several pre-trained models for face detection, recognitio
 
 To facilitate reproduction, we provide the pretrained model weights used in our experiments. Researchers can directly load the released checkpoint files to reproduce the reported results without training the model from scratch.
 
-🌍 **Google Drive** [Download pretrained weights](https://drive.google.com/file/d/1_cGS7NmMzVheKybPTnSb99zdT45nAaUw/view?usp=sharing)
+🌍 **Google Drive** [Download pretrained weights](https://drive.google.com/file/d/1Sx4OwkBVDJbq-6SWT51oyVZyUHhefX_1/view?usp=drive_link)
 
 ```bash
 # Make sure your directory paths are set correctly!
