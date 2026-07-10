@@ -99,12 +99,12 @@ To facilitate reproduction, we provide the pretrained model weights used in our 
 
 ```bash
 # Make sure your directory paths are set correctly!
-python network/main.py 
+python segfacemark/main.py 
 ```
 ### 7. Test
 ```bash
 #During testing, users may adjust the watermark embedding strength by modifying the wm_factor parameter in train.yaml.
-python network/test.py
+python segfacemark/test.py
 ```
 
 ## Citation
