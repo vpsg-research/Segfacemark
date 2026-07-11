@@ -92,11 +92,6 @@ This project relies on several pre-trained models for face detection, recognitio
 * **SegFace**: [Segface: Face segmentation of long-tail classes (AAAI 2025)](https://ojs.aaai.org/index.php/AAAI/article/view/32661)
 
 ### 6. Train
-
-To facilitate reproduction, we provide the pretrained model weights used in our experiments. Researchers can directly load the released checkpoint files to reproduce the reported results without training the model from scratch.
-
-🌍 **Google Drive** [Download pretrained weights](https://drive.google.com/file/d/1Sx4OwkBVDJbq-6SWT51oyVZyUHhefX_1/view?usp=drive_link)
-
 ```bash
 # Make sure your directory paths are set correctly!
 python segfacemark/main.py 
